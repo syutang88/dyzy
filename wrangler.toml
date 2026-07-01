@@ -1,0 +1,12 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "dyzy"
+main = "src/worker.jsx"
+compatibility_date = "2024-07-24"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+  { binding = "SUBLINK_KV", id = "c6c2f7e9e6b34099ae42dc23ee81e3f8" }
+]
+
+[assets]
+directory = "./public"
